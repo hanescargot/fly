@@ -35,9 +35,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:padding="48dp"
+            android:padding="56dp"
             android:layout_marginTop="8dp"
             android:src="@drawable/censored"
+            android:visibility="invisible"
             android:tag="censored"/>
 
     </FrameLayout>
@@ -56,6 +57,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly1"/>
         <ImageView
             android:id="@+id/fly2"
@@ -64,6 +66,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly2"/>
         <ImageView
             android:id="@+id/fly3"
@@ -72,6 +75,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly3"/>
 
     </LinearLayout>
@@ -90,6 +94,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly4"/>
         <ImageView
             android:id="@+id/fly5"
@@ -98,6 +103,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly5"/>
         <ImageView
             android:id="@+id/fly6"
@@ -106,6 +112,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly6"/>
 
     </LinearLayout>
@@ -124,6 +131,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly7"/>
         <ImageView
             android:id="@+id/fly8"
@@ -132,6 +140,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly8"/>
         <ImageView
             android:id="@+id/fly9"
@@ -140,6 +149,7 @@
             android:layout_weight="3"
             android:src="@drawable/fly1"
             android:layout_gravity="center"
+            android:visibility="visible"
             android:tag="fly9"/>
 
     </LinearLayout>
