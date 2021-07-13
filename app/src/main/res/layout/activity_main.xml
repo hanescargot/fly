@@ -22,7 +22,7 @@
             android:src="@drawable/wood_notice"/>
 
         <ImageView
-            android:id="@+id/targetFly"
+            android:id="@+id/target_fly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -58,7 +58,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly1"/>
+            android:tag="fly1"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
         <ImageView
             android:id="@+id/fly2"
             android:layout_width="wrap_content"
@@ -67,7 +69,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly2"/>
+            android:tag="fly2"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
         <ImageView
             android:id="@+id/fly3"
             android:layout_width="wrap_content"
@@ -76,7 +80,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly3"/>
+            android:tag="fly3"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
 
     </LinearLayout>
 
@@ -95,7 +101,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly4"/>
+            android:tag="fly4"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
         <ImageView
             android:id="@+id/fly5"
             android:layout_width="wrap_content"
@@ -104,7 +112,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly5"/>
+            android:tag="fly5"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
         <ImageView
             android:id="@+id/fly6"
             android:layout_width="wrap_content"
@@ -113,7 +123,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly6"/>
+            android:tag="fly6"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
 
     </LinearLayout>
 
@@ -132,7 +144,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly7"/>
+            android:tag="fly7"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
         <ImageView
             android:id="@+id/fly8"
             android:layout_width="wrap_content"
@@ -141,7 +155,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly8"/>
+            android:tag="fly8"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
         <ImageView
             android:id="@+id/fly9"
             android:layout_width="wrap_content"
@@ -150,7 +166,9 @@
             android:src="@drawable/fly1"
             android:layout_gravity="center"
             android:visibility="visible"
-            android:tag="fly9"/>
+            android:tag="fly9"
+            android:clickable="true"
+            android:onClick="flyButtonListener"/>
 
     </LinearLayout>
 
